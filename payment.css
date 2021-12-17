@@ -1,0 +1,145 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    /* background-color: #FFB085; */
+    background-color: rgb(12, 171, 224);
+    color :#C2FFF9;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    /* color:#1f255f; */
+    color: darkcyan;
+
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.header {
+    padding: 20px;
+    text-align: center;
+    /* color:#C2FFF9; */
+    color: rgb(5, 27, 77);
+  }
+.navbar {
+    overflow: hidden;
+    /* background-color: #F9D5A7; */
+    background-color: blue;
+    /* color: chocolate; */
+    color: rgb(28, 28, 122);;
+    /* background-color: rgb(77, 12, 161); */
+    opacity: 0.5;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    /* color: rgb(14, 13, 13); */
+    /* background-color: blue; */
+    /* background-color:blue; */
+    color: rgb(240, 22, 6);;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: darkcyan;
+    /* background-color: chartreuse; */
+  }
+  .navbar a.right {
+    float: right;
+  } 
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 6px 6px 2px #e9ecef
+}
+
+.heading {
+    font-size: 23px;
+    font-weight: 00
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #b1b6bd
+}
+
+.pricing {
+    border: 2px solid #304FFE;
+    background-color: #f2f5ff
+}
+
+.business {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.plan {
+    color: #aba4a4
+}
+
+.dollar {
+    font-size: 16px;
+    color: #6b6b6f
+}
+
+.amount {
+    font-size: 50px;
+    font-weight: 500
+}
+
+.year {
+    font-size: 20px;
+    color: #6b6b6f;
+    margin-top: 19px
+}
+
+.detail {
+    font-size: 22px;
+    font-weight: 500
+}
+
+.cvv {
+    height: 44px;
+    width: 73px;
+    border: 2px solid #eee
+}
+
+.cvv:focus {
+    box-shadow: none;
+    border: 2px solid #304FFE
+}
+
+.email-text {
+    height: 55px;
+    border: 2px solid #eee
+}
+
+.email-text:focus {
+    box-shadow: none;
+    border: 2px solid #304FFE
+}
+
+.payment-button {
+    height: 70px;
+    font-size: 20px
+}
+
+
+.footer {
+    padding: 6px;
+    text-align: center;
+    background: rgb(47, 14, 196);
+    /* background: #F9D5A7; */
+    margin-top: 10%;
+  }
+  
